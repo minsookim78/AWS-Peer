@@ -2,8 +2,7 @@
 
 
 provider "aws" {
-access_key ="AKIAUWT6ZXOJADJ3C2DN"
-secret_key ="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"
+
   #version = "~> 1.33"
   region  = "us-east-1"
 }
