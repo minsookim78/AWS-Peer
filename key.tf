@@ -1,0 +1,5 @@
+#key.tf :키생성
+resource "aws_key_pair" "sshkey" {
+  key_name   = "ns08014"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmsuyOmNHBVoc9qeHwmjtH1UIBAiRf9aXpVhj2l0vWwFHGxjgKKaMwo4HPb5xwnfqtcUhkBNMS40QutdVNJo9E4P06RAW6UyC5UIOvtkovoVMTuXigfDATYFuxXXfiudJ/p9EAOUkTKc66ZUGgZS+KksqivbgogXLdJzipiyUKVoJAM9Gi893O1bAwwTJfK7afT2+zbil08uEFCenahOdFNVahhks9iiN2MTHJus6GTXg8arArSuZ/PO8vW5zzGtFWGsstitCGUTl8+4gkt0Omysd6qZSyJOhnJppUtZi0oVk8lfXRAvb865Ect51G2U4A1p4O/F3DyrgNy5UbfLO5 ec2-user@ip-172-31-7-170"
+}
